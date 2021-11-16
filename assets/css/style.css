@@ -531,7 +531,7 @@ footer .navbar-brand {
     # Home Page
 
 ==========================================================*/
-
+/* 
 main {
 	margin-top: 70px;
 }
@@ -540,7 +540,7 @@ main {
 	main {
 		margin-top: 94px;
 	}
-}
+} */
 
 
 /*----------------------------------------------------------
@@ -602,7 +602,7 @@ main {
 
 .hero-section ul li {
 	color: #fff;
-	width: 50%;
+	/* width: 50%; */
 	margin-bottom: 12px;
 }
 
@@ -748,9 +748,9 @@ main {
 	font-size: 20px;
 }
 
-.expect {
+/* .expect {
 	background-image: url('../img/expect-banner.jpeg');
-}
+} */
 
 .expect .section-title {
 	padding: 0 120px;
@@ -882,11 +882,11 @@ main {
 
 ---------------------------------------------------------*/
 
-.get-started {
+/* .get-started {
 	background-image: url('../img/get-start-banner.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+} */
 
 .get-started .section-title {
 	padding: 0 140px;
@@ -989,219 +989,7 @@ main {
 }
 
 
-/*----------------------------------------------------------
 
-    ## FAQ Section
-
----------------------------------------------------------*/
-
-.faq {
-	background: #ecf1f2;
-}
-
-.faq .section-title {
-	padding: 0 50px;
-}
-
-.faq .section-title h2 {
-	text-transform: uppercase;
-}
-
-.faq .container {
-	max-width: 930px;
-}
-
-.accordion .accordion-section {
-	border-bottom: 1px solid #d3d3d3;
-}
-
-.accordion .accordion-section:last-child {
-	padding-bottom: 0;
-	margin-bottom: 0;
-}
-
-.accordion .accordion-section-title {
-	font-weight: bold;
-	font-size: 22px;
-	position: relative;
-	margin: 20px 0;
-	display: block;
-	transition: ease 0.3s all;
-	color: #3c3c3c;
-}
-
-.accordion .accordion-section-title:hover {
-	color: #12b77a;
-	text-decoration: none;
-}
-
-.accordion .accordion-section-title.active {
-	margin-bottom: 10px;
-	color: #12b77a;
-	border-bottom: 1px solid #12b77a;
-	padding-bottom: 10px;
-}
-
-.accordion .accordion-section-title:after {
-	position: absolute;
-	right: 25px;
-	top: 50%;
-	content: '';
-	height: 0;
-	width: 0;
-	border-left: 7px solid transparent;
-	border-right: 7px solid transparent;
-	border-top: 7px solid #3c3c3c;
-	transform: translate(0, -50%);
-	-moz-transform: translate(0, -50%);
-	-o-transform: translate(0, -50%);
-	-ms-transform: translate(0, -50%);
-	-webkit-transform: translate(0, -50%);
-}
-
-.accordion .accordion-section-title.active:after {
-	border-bottom: 7px solid #12b77a;
-	border-top: 0;
-	border-bottom: 7px solid #12b77a;
-	margin-top: -10px;
-}
-
-.accordion-section-content {
-	display: none;
-}
-
-.accordion-section-content p {
-	font-size: 18px;
-	color: #3c3c3c;
-	line-height: 1.5;
-	padding-bottom: 10px;
-}
-
-@media (max-width:767.98px) {
-	.faq .section-title {
-		padding: 0;
-	}
-	.accordion .accordion-section-title {
-		font-size: 18px;
-		line-height: 1.2;
-		padding-right: 35px;
-	}
-	.accordion-section-content p {
-		font-size: 16px;
-		line-height: 1.3;
-	}
-	.accordion .accordion-section-title::after {
-		right: 15px;
-	}
-}
-
-
-/*----------------------------------------------------------
-
-    ## Popup
-
----------------------------------------------------------*/
-
-.modal.fade.free-consultation.show {
-	background-color: rgba(0, 0, 0, 0.87);
-}
-
-.modal.fade .modal-dialog {
-	margin-top: 100px;
-}
-
-.free-consultation .modal-content {
-	border-radius: 0;
-}
-
-.free-consultation .modal-body {
-	padding: 0;
-}
-
-.free-consultation .modal-body {
-	display: flex;
-}
-
-.free-consultation .modal-body h2 {
-	font-size: 30px;
-	margin-bottom: 15px;
-}
-
-.free-consultation .modal-body h2 span {
-	color: #12b77a;
-}
-
-.modal-body .left-col {
-	width: 50%;
-}
-
-.modal-body .right-col {
-	width: 50%;
-	padding: 30px 35px;
-	position: relative;
-}
-
-.modal-body .right-col .form-control {
-	border: 1px solid #6f6f6f;
-	color: #6f6f6f;
-}
-
-.modal-body .right-col .btn-orange {
-	padding: 10px 30px;
-	width: 100%;
-}
-
-.form-status {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	width: 100%;
-	padding: 0;
-	text-align: center;
-	border-radius: 0;
-	border: 0;
-	font-weight: 700;
-	font-size: 16px;
-}
-
-@media (max-width:991.98px) {
-	.free-consultation .modal-dialog {
-		max-width: 680px;
-	}
-	.free-consultation .modal-body h2 {
-		font-size: 22px;
-	}
-	.modal.fade .modal-dialog {
-		margin-top: 50px;
-	}
-}
-
-@media (max-width:767.98px) {
-	.free-consultation .modal-body {
-		flex-wrap: wrap;
-	}
-	.modal-body .left-col,
-	.modal-body .right-col {
-		width: 100%;
-	}
-	.modal-body .left-col img {
-		width: 100%;
-	}
-	.modal-body .right-col {
-		padding: 30px 35px;
-	}
-	.modal.fade .modal-dialog {
-		margin-top: 30px;
-	}
-}
-
-
-/*----------------------------------------------------------
-
-    # Order Page
-
----------------------------------------------------------*/
 
 .inner-section {
 	background-image: url('../img/banner-bg.jpg');

@@ -177,15 +177,27 @@ img {
 }
 
 .btn-orange {
-	background: red;
+	background: #cb6600;
 	/* Old browsers */
-	/*  */
+	background: -moz-linear-gradient(top, #cb6600 0%, #de7700 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #cb6600 0%, #de7700 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #cb6600 0%, #de7700 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb6600', endColorstr='#de7700', GradientType=0);
 }
 
 .btn-orange:hover {
-	background: red;
+	background: #de7700;
 	/* Old browsers */
-	
+	background: -moz-linear-gradient(top, #de7700 0%, #ca6500 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #de7700 0%, #ca6500 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #de7700 0%, #ca6500 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de7700', endColorstr='#ca6500', GradientType=0);
 }
 
 button:focus {
@@ -531,15 +543,14 @@ footer .navbar-brand {
 .hero-section {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	/* background-image: url('../img/banner-bg.jpeg'); */
-	background-color: red;
+	background-image: url('../img/banner-bg.jpeg');
 }
 
 .hero-section h1 {
 	font-size: 82px;
 	color: #fff;
 	font-weight: bold;
-	/* background-image: url('../img/green-shape.png'); */
+	background-image: url('../img/green-shape.png');
 	background-size: 100% 100%;
 	background-position: center;
 	display: inline-block;
@@ -731,7 +742,7 @@ footer .navbar-brand {
 }
 
 .expect {
-	/* background-image: url('../img/expect-banner.jpeg'); */
+	background-image: url('../img/expect-banner.jpeg');
 }
 
 .expect .section-title {
@@ -740,7 +751,7 @@ footer .navbar-brand {
 
 .expect .section-title h2,
 .expect .section-title p {
-	color: #000;
+	color: #fff;
 }
 
 .expect ul {
@@ -749,7 +760,7 @@ footer .navbar-brand {
 }
 
 .expect li {
-	color: #000;
+	color: #fff;
 	margin-bottom: 10px;
 }
 
@@ -865,7 +876,7 @@ footer .navbar-brand {
 ---------------------------------------------------------*/
 
 .get-started {
-	/* background-image: url('../img/get-start-banner.jpeg'); */
+	background-image: url('../img/get-start-banner.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -876,7 +887,7 @@ footer .navbar-brand {
 
 .get-started .section-title h2 span {
 	display: block;
-	color: #000;
+	color: #12b77a;
 	font-size: 23px;
 }
 

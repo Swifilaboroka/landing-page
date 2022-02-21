@@ -550,7 +550,7 @@ footer .navbar-brand {
 }
 
 .hero-section h2 {
-	font-size: 31px;
+	font-size: 60px;
 	color: #fff;
 }
 
@@ -677,7 +677,7 @@ footer .navbar-brand {
 		padding-top: 40px;
 	}
 	.hero-section h1 {
-		font-size: 32px;
+		font-size: 42px;
 		margin-bottom: 15px;
 		text-align: center;
 		display: block;
@@ -758,7 +758,7 @@ footer .navbar-brand {
 }
 
 .expect li .fas {
-	color: #ffe786;
+	color: green;
 	margin-right: 5px;
 }
 
